@@ -1,6 +1,8 @@
+import Home from "@/components/home";
+
 const HomePage = () => {
     return(
-        <p>HomePage</p>
+        <Home />
     )
 }
 
