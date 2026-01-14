@@ -6,9 +6,9 @@ import Profile from "./Profile";
 
 const Header = () => {
     return (
-        <div className="flex items-center justify-between gap-1 w-full h-[66px] xl:h-[88px] px-14 md:px-6 lg:px-[60px] xl:px-[90px] 2xl:px-[160px]">
+        <div className="flex items-center justify-between gap-1 w-full h-[66px] xl:h-[88px] px-4 sm:px-14 md:px-6 lg:px-[60px] xl:px-[90px] 2xl:px-[160px]">
             <Image src="/Logo.svg" alt="Logo" width={96} height={32} />
-            <div className="flex items-center gap-2 bg-[#F5F5F5] rounded-lg h-[56px] w-full max-w-[290px] lg:max-w-[370px] xl:max-w-[433px] p-4">
+            <div className="hidden sm:flex items-center gap-2 bg-[#F5F5F5] rounded-lg h-[56px] w-full max-w-[290px] lg:max-w-[370px] xl:max-w-[433px] p-4">
                 <Image src="/search.svg" width={16} height={16} alt="search" />
                 <input placeholder="Search" className="text-sm outline-none p-2 bg-transparent ml-2" type="text" />
             </div>
