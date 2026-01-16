@@ -54,8 +54,8 @@ const Category = () => {
                             768: { spaceBetween: 32 },
                         }}
                     >
-                        {categories.map((category) => (
-                            <SwiperSlide className="!w-[160px]">
+                        {categories.map((category, idx:number) => (
+                            <SwiperSlide key={idx} className="!w-[160px]">
                                 <CategoryCard title={category} />
                             </SwiperSlide>
                         ))}

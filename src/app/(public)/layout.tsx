@@ -1,4 +1,4 @@
-import Header from "@/components/header";
+// import Header from "@/components/header";
 
 
 export default function RootLayout({
@@ -8,7 +8,7 @@ export default function RootLayout({
 }>) {
   return (
     <div>
-      <Header />
+      {/* <Header /> */}
       {children}
     </div>
     
